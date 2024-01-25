@@ -41,8 +41,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="AsientosLogica.cs" />
+    <Compile Include="ClientesLogica.cs" />
+    <Compile Include="ComprasLogica.cs" />
+    <Compile Include="PedidosProveedoresLogica.cs" />
+    <Compile Include="PeliculasLogica.cs" />
+    <Compile Include="ProgramacionLogica.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ProveedoresLogica.cs" />
+    <Compile Include="ProximosEstrenosLogica.cs" />
+    <Compile Include="SalasLogica.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\tienda_acceso_datos\boleteria_acceso_datos.csproj">

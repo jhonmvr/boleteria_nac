@@ -1,5 +1,5 @@
 
-namespace tienda_acceso_datos.Entidades
+namespace boleteria_acceso_datos.Entidades
 {
     using System;
     using System.Collections.Generic;
