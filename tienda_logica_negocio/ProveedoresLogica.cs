@@ -20,6 +20,5 @@ namespace boleteria_logica_negocio
             return proveedoresDao.ListarProveedores();
         }
 
-        // Métodos adicionales como BuscarProveedor, etc., pueden ser agregados aquí.
     }
 }

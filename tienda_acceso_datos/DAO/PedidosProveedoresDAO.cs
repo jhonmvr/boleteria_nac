@@ -16,7 +16,7 @@ namespace boleteria_acceso_datos.DAO
             ejecutarSql.Connection = conexion.AbrirConexion();
             try
             {
-                ejecutarSql.CommandText = "INSERT INTO PedidosProveedores (PeliculaID, ProveedorID, EstadoPedido) VALUES(" + nuevoPedidoProveedor.PedidoID + ", " + nuevoPedidoProveedor.Proveedores + ", '" + nuevoPedidoProveedor.EstadoPedido + "')";
+                ejecutarSql.CommandText = "INSERT INTO PedidosProveedores (PeliculaID, ProveedorID, EstadoPedido) VALUES(" + nuevoPedidoProveedor.PedidoID + ", " + nuevoPedidoProveedor.Proveedores.ProveedorID + ", '" + nuevoPedidoProveedor.EstadoPedido + "')";
                 transaccion = ejecutarSql.ExecuteReader();
                 conexion.CerrarConexion();
             }

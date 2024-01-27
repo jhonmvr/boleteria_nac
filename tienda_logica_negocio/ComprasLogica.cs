@@ -20,6 +20,5 @@ namespace boleteria_logica_negocio
             return comprasDao.ListarCompras();
         }
 
-        // Métodos adicionales como BuscarCompra, etc., pueden ser agregados aquí.
     }
 }

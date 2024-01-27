@@ -17,7 +17,7 @@ namespace boleteria_acceso_datos.DAO
             try
             {
                 ejecutarSql.CommandText = "INSERT INTO ProximosEstrenos (PeliculaID, FechaTentativa, TrailerURL, Sinopsis)'"+
-                    " VALUES(" + nuevoProximoEstreno.EstrenoID + ", '" + nuevoProximoEstreno.FechaTentativa + "', '" + nuevoProximoEstreno.TrailerURL + "', '" + nuevoProximoEstreno.Sinopsis + "')";
+                    " VALUES(" + nuevoProximoEstreno.Peliculas.PeliculaID + ", '" + nuevoProximoEstreno.FechaTentativa + "', '" + nuevoProximoEstreno.TrailerURL + "', '" + nuevoProximoEstreno.Sinopsis + "')";
                 transaccion = ejecutarSql.ExecuteReader();
                 conexion.CerrarConexion();
             }

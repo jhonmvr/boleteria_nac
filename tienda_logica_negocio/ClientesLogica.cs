@@ -20,6 +20,5 @@ namespace boleteria_logica_negocio
             return clientesDao.ListarClientes();
         }
 
-        // Métodos adicionales como BuscarCliente, etc., pueden ser agregados aquí.
     }
 }

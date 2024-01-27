@@ -20,6 +20,6 @@ namespace boleteria_logica_negocio
             return salasDao.ListarSalas();
         }
 
-        // Métodos adicionales como BuscarSala, etc., pueden ser agregados aquí.
+        
     }
 }

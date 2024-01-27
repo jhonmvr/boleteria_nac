@@ -16,7 +16,7 @@ namespace boleteria_acceso_datos.DAO
             ejecutarSql.Connection = conexion.AbrirConexion();
             try
             {
-                ejecutarSql.CommandText = "INSERT INTO Compras (ClienteID, PeliculaID, SalaID, CodigoCompra, AsientosAsignados) VALUES(" + nuevaCompra.CompraID + ", " + nuevaCompra.CompraID + ", " + nuevaCompra.Salas + ", '" + nuevaCompra.CodigoCompra + "', '" + nuevaCompra.AsientosAsignados + "')";
+                ejecutarSql.CommandText = "INSERT INTO Compras (ClienteID, PeliculaID, SalaID, CodigoCompra, AsientosAsignados) VALUES(" + nuevaCompra.Clientes.ClienteID + ", " + nuevaCompra.CompraID + ", " + nuevaCompra.Salas.SalaID + ", '" + nuevaCompra.CodigoCompra + "', '" + nuevaCompra.AsientosAsignados + "')";
                 transaccion = ejecutarSql.ExecuteReader();
                 conexion.CerrarConexion();
             }

@@ -20,6 +20,5 @@ namespace boleteria_logica_negocio
             return proximosEstrenosDao.ListarProximosEstrenos();
         }
 
-        // Métodos adicionales como BuscarProximoEstreno, etc., pueden ser agregados aquí.
     }
 }

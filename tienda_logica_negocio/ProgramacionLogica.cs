@@ -20,6 +20,5 @@ namespace boleteria_logica_negocio
             return programacionDao.ListarProgramaciones();
         }
 
-        // Métodos adicionales como BuscarProgramacion, etc., pueden ser agregados aquí.
     }
 }
